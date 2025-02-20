@@ -1,0 +1,5 @@
+g++ test.cpp -lgtest -lgtest_main -pthread -std=c++17 -o test_res
+make
+make coverage
+cd out
+xdg-open index.html
